@@ -40,6 +40,7 @@ while (gjettet_tall != svar):
         gjettet_tall = int(input("Tallet ditt er for lavt, gjett høyere"))
     elif (gjettet_tall > svar):
         gjettet_tall = int(input("Tallet ditt er for høyt, gjett lavere"))
+
          # her øker vi variabelen "antall_gjett" med 1 for hver gjennomføring av while-loopen, slik at vi senere kan gi
          # kjøreren av programmet tilbakemelding på hvor mange forsøk som ble brukt på å finne svaret.
     antall_gjett = antall_gjett + 1
@@ -60,5 +61,5 @@ elif(antall_gjett >= 8 and antall_gjett <= 10 ):
 # finne en mer effektiv måte å komme fram til svaret på.
 elif(antall_gjett > 10):
     print(f"Gratulerer, du gjettet riktig på {antall_gjett} forsøk, kommer du på en bedre måte å finne svaret på?")
-    
+
 # program ferdig.
